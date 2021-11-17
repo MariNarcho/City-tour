@@ -1,0 +1,227 @@
+@media only screen and (max-width: 600px) {
+  nav {
+    justify-content: center;
+    padding-bottom: 3px;
+  }
+  nav ul {
+    /* display: none; */
+    justify-content: center;
+    gap: 30px;
+  }
+  .cities {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  aside {
+    width: 100%;
+  }
+  .p-container {
+    flex-direction: column;
+  }
+  .p-right {
+    margin-top: 0px;
+  }
+  .background {
+    height: 100%;
+  }
+  .pictures {
+    grid-template-columns: 1fr;
+  }
+  .pictures img {
+    width: 100%;
+  }
+  .aside-container {
+    flex-direction: column;
+  }
+  .aside-container aside {
+    margin: 0 auto;
+    height: 100%;
+  }
+  .aside-container aside .btn-margin-bottom {
+    margin-bottom: 30px;
+  }
+  .inspiration h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .testimonials {
+    height: 100%;
+  }
+  .testimonials div {
+    flex-direction: column;
+  }
+  .testimonials aside {
+    margin: 0 auto;
+  }
+  footer .email input {
+    width: 70%;
+  }
+  footer .email button {
+    width: 70%;
+  }
+
+  .upcoming-tours h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .tour-dates {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tour-date {
+    display: inline-block;
+    border: none;
+    margin-bottom: 80px;
+  }
+  .tour-date p {
+    margin-bottom: 10px;
+  }
+  .tour-date:first-of-type {
+    border: none;
+  }
+  .tour-date-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  .sneak-peek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sneak-peek aside {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .sneak-peek h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  .sneak-peek aside img {
+    width: 100%;
+    height: auto;
+  }
+  .sneak-peek aside p {
+    text-align: left;
+    width: 80%;
+  }
+  .sneak-peek a {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .why-us {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .why-us aside {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .why-us aside img {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .why-us div {
+    margin-top: 0px;
+  }
+
+  .we-are-logo {
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 0px;
+  }
+  .we-are-logo h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+  .we-are-logo img {
+    position: relative;
+  }
+  .we-are-sprayz {
+    position: absolute;
+    right: 200px;
+    top: 185px;
+  }
+  .we-are-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .our-team-main {
+    display: none;
+  }
+  .our-team-bg {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    top: 550px;
+  }
+
+  .our-team-info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .about-footer {
+    margin-top: 650px;
+  }
+  .contact-input {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 70%;
+    margin-top: 25px;
+  }
+  .contact-input input:hover {
+    border: 3px solid black;
+  }
+  .contact h1 {
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  .contact-input textarea {
+    width: 98%;
+  }
+  .contact-input textarea:hover {
+    border: 3px solid black;
+  }
+  .contact-input button {
+    width: 50%;
+    margin-top: 10px;
+  }
+  .contact {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .cities {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  nav ul {
+    gap: 30px;
+  }
+  .aside-container {
+    flex-wrap: wrap;
+  }
+  .background {
+    height: auto;
+  }
+  .aside-container aside a {
+    margin-top: 0px;
+  }
+  .sneak-peek {
+    grid-template-columns: 1fr;
+  }
+}
